@@ -144,18 +144,20 @@ height: 30%;
 
 
 @media screen and (max-width:768px){
- body {
- 	background-color: #333;
+	.container{
+	width: 760px;
+}
 }
 
 @media screen and (max-width: 980px){
- body {
- 	background-color: #333;
+	.container{
+	width: 970px;
+}
 }
 
-
-@media screen and (max-width: 640px){	
- body {
- 	background-color: #333;
+@media screen and (max-width: 640px){
+	.container{
+	width: 630px;
+}
 }
 
